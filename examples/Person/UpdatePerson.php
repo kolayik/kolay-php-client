@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../../examples/Authorization.php';
 
-$createdPerson = (new Authorization())->post('person/general-info', array (
+$updatedPerson = (new Authorization())->post('person/general-info', array (
     'person' =>
         array (
             'id' => 'd6a1ea043834899a671a213a8e46152f',
@@ -22,4 +22,4 @@ $createdPerson = (new Authorization())->post('person/general-info', array (
         ),
 ));
 
-var_dump($createdPerson);
+var_dump($updatedPerson);
