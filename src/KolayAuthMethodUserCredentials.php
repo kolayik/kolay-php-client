@@ -41,7 +41,8 @@ class KolayAuthMethodUserCredentials
 		$client = new KolayClient(['public' => true]);
 		$response = $client->post('public/authenticate', [
 			'username' => $this->username,
-			'password' => $this->password
+			'password' => $this->password,
+            'source' => 'api'
 		]);
 
         if ($response instanceof KolayErrorResponse) {
