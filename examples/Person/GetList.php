@@ -14,6 +14,6 @@ $getList = (new Authorization())->post('person/search', array(
                     '8b7c3be0169b80d102860d142c82b294'
                 ]
             ]
-     ));
+));
 
 var_dump($getList);
