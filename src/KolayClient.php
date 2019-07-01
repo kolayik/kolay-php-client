@@ -244,6 +244,6 @@ class KolayClient
             return new KolayErrorResponse($response->code, $response->message, $response->details);
         }
 
-        return $response->data;
+        return $response->data ?? $response;
     }
 }
