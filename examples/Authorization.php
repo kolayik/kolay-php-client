@@ -6,7 +6,7 @@ class Authorization extends \Kolay\KolayClient
     public function __construct()
     {
         parent::__construct([
-            'userCredentials' => ['username' => 'erenakpinar123@gmail.com', 'password' => '123123']
+            'userCredentials' => ['username' => 'icguner@kolayhr.com', 'password' => '241715iso']
         ]);
     }
 }
